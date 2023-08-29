@@ -11,7 +11,6 @@
   --green: #1ABC9C;
   --pink: #BA4B63;
   --aqua: #1EA4B6;
-  --darkgreen:#1ABC9C;
   --black: #140F0F;
   --cyan:#1C83C1 ;
   --blue: #0E38B5;
@@ -23,7 +22,7 @@
   margin: 0 auto;
 }
 .container-cc{
-  width: 65%;
+  width: 55%;
   margin: 0 auto;
 }
 header{
