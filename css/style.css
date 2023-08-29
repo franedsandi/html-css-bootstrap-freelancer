@@ -25,14 +25,6 @@
   width: 55%;
   margin: 0 auto;
 }
-header{
-  height: 100px;
-  background-color: var(--grey);
-}
-#start,
-#about{
-  background-color: var(--green);
-}
 .image{
   width: 30vw;
   height: 30vw;
