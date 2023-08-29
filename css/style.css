@@ -1,0 +1,38 @@
+.debug{
+  background-color: rgba(225, 0, 0, 0.719);
+  border: 3px solid black;
+}
+.par-done{
+  border: 3px solid black;
+}
+:root{
+  --grey: #2C3E50;
+  --green: #1ABC9C;
+  --pink: #BA4B63;
+  --aqua: #1EA4B6;
+  --darkgreen:#1ABC9C;
+  --black: #140F0F;
+  --cyan: #140F0F;
+  --blue: #0E38B5;
+  --beige: #CCB2A3;
+  --lightgrey: #3A546D;
+}
+.container-cb{
+  width: 75%;
+}
+.container-cc{
+  width: 70%;
+}
+header{
+  height: 100px;
+  background-color: var(--grey);
+}
+#start{
+  background-color: var(--green);
+  height: 500px;
+}
+#start .space-bar{
+  height: 3px;
+  width: 40px;
+  background-color: white;
+}
