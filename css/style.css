@@ -1,3 +1,4 @@
+
 .debug{
   background-color: rgba(225, 0, 0, 0.719);
   border: 3px solid black;
@@ -12,16 +13,18 @@
   --aqua: #1EA4B6;
   --darkgreen:#1ABC9C;
   --black: #140F0F;
-  --cyan: #140F0F;
+  --cyan:#1C83C1 ;
   --blue: #0E38B5;
   --beige: #CCB2A3;
   --lightgrey: #3A546D;
 }
 .container-cb{
   width: 70%;
+  margin: 0 auto;
 }
 .container-cc{
   width: 65%;
+  margin: 0 auto;
 }
 header{
   height: 100px;
@@ -39,4 +42,12 @@ header{
   height: 5px;
   width: 40px;
   background-color: white;
+}
+.space-bar-grey{
+  height: 5px;
+  width: 40px;
+  background-color: var(--grey);
+}
+.text-grey{
+  color: var(--grey);
 }
