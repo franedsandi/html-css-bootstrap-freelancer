@@ -18,21 +18,25 @@
   --lightgrey: #3A546D;
 }
 .container-cb{
-  width: 75%;
+  width: 70%;
 }
 .container-cc{
-  width: 70%;
+  width: 65%;
 }
 header{
   height: 100px;
   background-color: var(--grey);
 }
-#start{
+#start,
+#about{
   background-color: var(--green);
-  height: 500px;
 }
-#start .space-bar{
-  height: 3px;
+.image{
+  width: 30vw;
+  height: 30vw;
+}
+.space-bar{
+  height: 5px;
   width: 40px;
   background-color: white;
 }
