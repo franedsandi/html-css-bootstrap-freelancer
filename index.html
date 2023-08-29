@@ -18,8 +18,20 @@
   <header class="d-flex par-done" style="height: 100px;
   background-color: var(--grey)">
     <div class="container d-flex  align-items-center text-center text-white par-done">
-      <div class="logo col-5 text-uppercase par-done fw-bold fs-3">Start Bootstrap</div>
-      <div class="H offset-6 col-1 par-done">h</div>
+      <div class="col-5 text-uppercase fw-bold fs-3 par-done"><!-- logo -->
+        Start Bootstrap
+      </div>
+      <div class=" offset-2 col-5 d-sm-none d-md-block par-done"> <!-- menu -->
+        <ul class="d-flex list-unstyled justify-content-between fs-5 mb-0">
+          <li><a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white">PORTFOLIO</a></li>
+          <li><a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white">ABOUT</a></li>
+          <li><a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="H offset-6 col-1 par-done d-md-none"> <!-- burguer -->
+        h
+      </div>
+
     </div>
   </header>
   <main>
@@ -48,49 +60,61 @@
       </div>
     </section>
     <section id="portfolio">
-      <div class="container par-done">
+      <div class="container pb-5 par-done">
         <!-- tittle -->
         <div class="text-center fw-bold text-uppercase fs-3 my-5 text-grey par-done">
           Portfolio
         </div>
         <!-- divider -->
         <div class="d-flex align-items-center justify-content-center text-uppercase text-center text-grey par-done mb-4">
-          <div class="space-bar-grey"></div>
+          <div class="space-bar-grey">
+          </div>
           <i class="fa-solid fa-star mx-2 fs-2"></i>
-          <div class="space-bar-grey"></div>
+          <div class="space-bar-grey">
+          </div>
         </div>
         <!-- cards -->
-        <div class="cards">
-          <div class="card w-100 d-flex align-items-center py-5 mb-4 par-done" style="background-color: var(--pink);">
-            <div class="image rounded-circle par-done">
-              <img src="" alt="">
+        <div class="row">
+          <div class="col-sm-12 pb-4 col-md-6 par-done">
+            <div class="card p-5 d-flex align-items-center" style="background-color: var(--pink);">
+              <div class="image rounded-circle par-done">
+                <img src="" alt="">
+              </div>
             </div>
           </div>
-          <div class="card w-100 d-flex align-items-center py-5 mb-4 par-done
-          " style="background-color: var(--aqua);">
-            <div class="image rounded-circle par-done">
-              <img src="" alt="">
+          <div class="col-sm-12 pb-3 col-md-6 par-done">
+            <div class="card p-5 d-flex align-items-center" style="background-color: var(--aqua);">
+              <div class="image rounded-circle par-done">
+                <img src="" alt="">
+              </div>
             </div>
           </div>
-          <div class="card w-100 d-flex align-items-center py-5 mb-4 par-done
-          " style="background-color: var(--black);">
-            <div class="image rounded-circle par-done">
-              <img src="" alt="">
+          <div class="col-sm-12 pb-3 col-md-6 par-done">
+            <div class="card p-5 d-flex align-items-center" style="background-color: var(--black);">
+              <div class="image rounded-circle par-done">
+                <img src="" alt="">
+              </div>
             </div>
           </div>
-          <div class="card w-100 d-flex align-items-center py-5 mb-4 par-done" style="background-color: var(--cyan);">
-            <div class="image rounded-circle par-done">
-              <img src="" alt="">
+          <div class="col-sm-12 pb-3 col-md-6 par-done">
+            <div class="card p-5 d-flex align-items-center" style="background-color: var(--cyan);">
+              <div class="image rounded-circle par-done">
+                <img src="" alt="">
+              </div>
             </div>
           </div>
-          <div class="card w-100 d-flex align-items-center py-5 mb-4 par-done" style="background-color: var(--blue);">
-            <div class="image rounded-circle par-done">
-              <img src="" alt="">
+          <div class="col-sm-12 pb-3 col-md-6 par-done">
+            <div class="card p-5 d-flex align-items-center" style="background-color: var(--blue);">
+              <div class="image rounded-circle par-done">
+                <img src="" alt="">
+              </div>
             </div>
           </div>
-          <div class="card w-100 d-flex align-items-center py-5 mb-5 par-done" style="background-color: var(--beige);">
-            <div class="image rounded-circle par-done">
-              <img src="" alt="">
+          <div class="col-sm-12 pb-3 col-md-6 par-done">
+            <div class="card p-5 d-flex align-items-center" style="background-color: var(--beige);">
+              <div class="image rounded-circle par-done">
+                <img src="" alt="">
+              </div>
             </div>
           </div>
         </div>
@@ -193,7 +217,10 @@
     </section>
 
   </main>
-  <footer>
+  <footer style="background-color: var(--grey)">
+    <div class="container py-5 text-center text-white">
+      <div class="copyright"></div> Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019
+    </div>
 
   </footer>
 </body>
