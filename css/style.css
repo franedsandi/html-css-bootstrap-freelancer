@@ -19,6 +19,7 @@
 }
 .container-cb{
   width: 70%;
+  max-width: 1150px;
   margin: 0 auto;
 }
 .container-cc{

@@ -17,19 +17,19 @@
 <body>
   <header class="d-flex par-done" style="height: 100px;
   background-color: var(--grey)">
-    <div class="container d-flex  align-items-center text-center text-white par-done">
-      <div class="col-5 text-uppercase fw-bold fs-3 par-done"><!-- logo -->
+    <div class="container d-flex  align-items-center text-white par-done">
+      <div class="col-6 text-uppercase fw-bold fs-3 par-done"><!-- logo -->
         Start Bootstrap
       </div>
-      <div class=" offset-2 col-5 d-sm-none d-md-block par-done"> <!-- menu -->
-        <ul class="d-flex list-unstyled justify-content-between fs-5 mb-0">
-          <li><a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white">PORTFOLIO</a></li>
-          <li><a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white">ABOUT</a></li>
-          <li><a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white">CONTACT</a></li>
+      <div class=" offset-1 col-5 d-none d-md-block par-done"> <!-- menu -->
+        <ul class="d-flex justify-content-end list-unstyled fs-5 mb-0">
+          <li><a href="#portfolio" class="link-offset-2 link-underline link-underline-opacity-0 ms-3 text-white">PORTFOLIO</a></li>
+          <li><a href="#about" class="link-offset-2 link-underline link-underline-opacity-0 ms-3 text-white">ABOUT</a></li>
+          <li><a href="#contact-me" class="link-offset-2 link-underline link-underline-opacity-0 ms-3 text-white">CONTACT</a></li>
         </ul>
       </div>
-      <div class="H offset-6 col-1 par-done d-md-none"> <!-- burguer -->
-        h
+      <div class="offset-5 col-1 d-flex justify-content-center p-1 d-md-none par-done"> <!-- burguer -->
+        <i class="fa-solid fa-bars"></i>
       </div>
 
     </div>
@@ -75,43 +75,43 @@
         </div>
         <!-- cards -->
         <div class="row">
-          <div class="col-sm-12 pb-4 col-md-6 par-done">
-            <div class="card p-5 d-flex align-items-center" style="background-color: var(--pink);">
+          <div class="col-sm-12 pb-4 col-md-6 col-xl-4 par-done">
+            <div class="card p-sm-5  p-md-4 d-flex align-items-center" style="background-color: var(--pink);">
               <div class="image rounded-circle par-done">
                 <img src="" alt="">
               </div>
             </div>
           </div>
-          <div class="col-sm-12 pb-3 col-md-6 par-done">
-            <div class="card p-5 d-flex align-items-center" style="background-color: var(--aqua);">
+          <div class="col-sm-12 pb-4 col-md-6 col-xl-4 par-done">
+            <div class="card p-sm-5  p-md-4 d-flex align-items-center" style="background-color: var(--aqua);">
               <div class="image rounded-circle par-done">
                 <img src="" alt="">
               </div>
             </div>
           </div>
-          <div class="col-sm-12 pb-3 col-md-6 par-done">
-            <div class="card p-5 d-flex align-items-center" style="background-color: var(--black);">
+          <div class="col-sm-12 pb-4 col-md-6 col-xl-4 par-done">
+            <div class="card p-sm-5  p-md-4 d-flex align-items-center" style="background-color: var(--black);">
               <div class="image rounded-circle par-done">
                 <img src="" alt="">
               </div>
             </div>
           </div>
-          <div class="col-sm-12 pb-3 col-md-6 par-done">
-            <div class="card p-5 d-flex align-items-center" style="background-color: var(--cyan);">
+          <div class="col-sm-12 pb-4 col-md-6 col-xl-4 par-done">
+            <div class="card p-sm-5  p-md-4 d-flex align-items-center" style="background-color: var(--cyan);">
               <div class="image rounded-circle par-done">
                 <img src="" alt="">
               </div>
             </div>
           </div>
-          <div class="col-sm-12 pb-3 col-md-6 par-done">
-            <div class="card p-5 d-flex align-items-center" style="background-color: var(--blue);">
+          <div class="col-sm-12 pb-1 col-md-6 col-xl-4 par-done">
+            <div class="card p-sm-5  p-md-4 d-flex align-items-center" style="background-color: var(--blue);">
               <div class="image rounded-circle par-done">
                 <img src="" alt="">
               </div>
             </div>
           </div>
-          <div class="col-sm-12 pb-3 col-md-6 par-done">
-            <div class="card p-5 d-flex align-items-center" style="background-color: var(--beige);">
+          <div class="col-sm-12 pb-1 col-md-6 col-xl-4 par-done">
+            <div class="card p-sm-5  p-md-4 d-flex align-items-center" style="background-color: var(--beige);">
               <div class="image rounded-circle par-done">
                 <img src="" alt="">
               </div>
@@ -133,9 +133,14 @@
           <div class="space-bar"></div>
         </div>
         <!-- text -->
-        <div class="fs-2 text-white par-done">
-          <p>Freelancer is a free bootstrap theme created by start bootstrap. The download includes the complete sourse files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-          <p class="mt-5">Whether you're a student looking to showcase your work , a professional looking to attract  clients, or a graphic artist looking to share your projects is the perfect starting point!</p>
+        <div class="row fs-2 text-white par-done">
+          <div class="col-sm-12 col-md-6">
+            <p>Freelancer is a free bootstrap theme created by start bootstrap. The download includes the complete sourse files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+          </div>
+          <div class="col-sm-12 mt-sm-5 col-md-6 mt-md-0">
+            <p>Whether you're a student looking to showcase your work , a professional looking to attract  clients, or a graphic artist looking to share your projects is the perfect starting point!</p>
+          </div>
+          
         </div>
         <!-- button -->
         <div class="btn btn-outline-light fs-3 px-4 align-self-center my-5">
@@ -175,51 +180,53 @@
       </div>
     </section>
     <section id="location" style="background-color: var(--lightgrey);">
-      <div class="container text-center text-white p-5">
+      <div class="container text-center text-white p-5 par-done">
         <div class="row">
-          <div class="col text-uppercase fs-3">Location</div>
-        </div>
-        <div class="row">
-          <div class="col text-capitalize fs-2 mb-5">
-            2215 John Daniel Drive Clark, MO 54243
+          <div class="col-sm-12 d-flex flex-column align-content-center col-md-4 par-done">
+            <div class="row">
+              <p class="text-uppercase">Location</p>
+            </div>
+            <div class="row">
+              <p class="text-capitalize">2215 john daniel drive clack, MO 54243</p>
+            </div>
+          </div>
+          <div class="col-sm-12 d-flex flex-column align-content-center col-md-4 par-done">
+            <div class="row">
+              <p class="text-uppercase">Arround the web</p>
+            </div>
+            <div class="row">
+              <ul class="d-flex justify-content-center list-unstyled fs-3">
+                <li>
+                  <a href="#" class="btn btn-outline-light p-2 rounded-circle mx-1"><i class="fa-brands fa-facebook-f t"></i></a>
+                </li>
+                <li>
+                  <a href="#" class="btn btn-outline-light p-2 rounded-circle mx-1"><i class="fa-solid fa-g"></i></a>
+                </li>
+                <li>
+                  <a href="#" class="btn btn-outline-light p-2 rounded-circle mx-1"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#" class="btn btn-outline-light p-2 rounded-circle mx-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 d-flex flex-column align-content-center col-md-4 par-done">
+            <div class="row">
+              <p class="text-uppercase">about freelancer</p>
+            </div>
+            <div class="row">
+              <p>Frelance is a free to use, open source Bootstrap theme created by <a href="#" style="color: var(--green);text-decoration: none;">Start Bootstra</a></p>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col text-uppercase fs-3">
-            Around the web
-          </div>
-        </div>
-        <div class="row justify-content-center mt-1 mb-5">
-          <div class="col-1 fs-3 rounded-circle mx-1 p-2 par-done " >
-            <i class="fa-brands fa-facebook-f"></i>
-          </div>
-          <div class="col-1 fs-3 rounded-circle mx-1 p-2 par-done ">
-            <i class="fa-solid fa-g"></i>
-          </div>
-          <div class="col-1 fs-3 rounded-circle mx-1 p-2 par-done ">
-            <i class="fa-brands fa-twitter"></i>
-          </div>
-          <div class="col-1 fs-3 rounded-circle mx-1 p-2 par-done ">
-            <i class="fa-brands fa-linkedin-in"></i>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col text-capitalize fs-2 mb-2">
-            about freelancer
-          </div>
-        </div>
-        <div class="row">
-          <div class="col fs-2 mb-2">
-            Frelance is a free to use, open source Bootstrap theme created by <a href="#" style="color: var(--green);text-decoration: none;">Start Bootstrap</a>
-          </div>
-        </div>
+
       </div>
     </section>
-
   </main>
   <footer style="background-color: var(--grey)">
-    <div class="container py-5 text-center text-white">
-      <div class="copyright"></div> Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019
+    <div class="container py-5 text-center text-white par-done">
+      <div class="copyright par-done">Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</div> 
     </div>
 
   </footer>
