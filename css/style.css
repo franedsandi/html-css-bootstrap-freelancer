@@ -76,3 +76,9 @@
   background-color: rgba(0, 0, 0, 0);
   border: 2px solid white;
 }
+header li a{
+  color: white;
+}
+header li a:hover {
+  color: #1ABC9C;
+}
