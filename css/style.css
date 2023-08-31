@@ -85,10 +85,16 @@ header li a:hover {
   color: #1ABC9C;
 }
 #start .tittle{
-  font-size: 70px
+  font-size: 50px
+}
+#start p{
+  font-size: 26px;
 }
 @media screen and (max-width:762px) {
   #start .tittle{
-    font-size: 50px;
+    font-size: 40px;
+  }
+  #start p{
+    font-size: 18px;
   }
 }
