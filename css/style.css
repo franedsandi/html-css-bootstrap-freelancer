@@ -1,5 +1,7 @@
 
-.debug{
+body{
+  font-family: helvetica;
+}.debug{
   background-color: rgba(225, 0, 0, 0.719);
   border: 3px solid black;
 }
@@ -81,4 +83,12 @@ header li a{
 }
 header li a:hover {
   color: #1ABC9C;
+}
+#start .tittle{
+  font-size: 70px
+}
+@media screen and (max-width:762px) {
+  #start .tittle{
+    font-size: 50px;
+  }
 }
